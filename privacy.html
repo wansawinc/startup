@@ -1,0 +1,130 @@
+<!DOCTYPE html><html data-bs-theme="auto" lang="en-gb"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"><title>Contact - WANSAW</title><meta name="theme-color" content="005777"><link rel="canonical" href="https://wansaw.com/privacy.html"><meta property="og:url" content="https://wansaw.com/privacy.html"><meta name="description" content="Find products, resources, and programs for every stage of your start-up journey free for Students &amp; Registered Institutes in Kashmir.  "><meta name="twitter:description" content="For schools in Kashmir get free hosting, software's SMS &amp; apps.
+If you are a student &amp; need help to build your idea - We got your back."><meta name="twitter:image" content="https://wansaw.com/assets/img/avatars/hd.png"><meta property="og:image" content="https://wansaw.com/assets/img/avatars/hd.png"><meta property="og:type" content="website"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="WANSAW ">
+			<script>
+(function() {
+
+	// JavaScript snippet handling Dark/Light mode switching
+
+	const getStoredTheme = () => localStorage.getItem('theme');
+	const setStoredTheme = theme => localStorage.setItem('theme', theme);
+	const forcedTheme = document.documentElement.getAttribute('data-bss-forced-theme');
+
+	const getPreferredTheme = () => {
+
+		if (forcedTheme) return forcedTheme;
+
+		const storedTheme = getStoredTheme();
+		if (storedTheme) {
+			return storedTheme;
+		}
+
+		const pageTheme = document.documentElement.getAttribute('data-bs-theme');
+
+		if (pageTheme) {
+			return pageTheme;
+		}
+
+		return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+	}
+
+	const setTheme = theme => {
+		if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+			document.documentElement.setAttribute('data-bs-theme', 'dark');
+		} else {
+			document.documentElement.setAttribute('data-bs-theme', theme);
+		}
+	}
+
+	setTheme(getPreferredTheme());
+
+	const showActiveTheme = (theme, focus = false) => {
+		const themeSwitchers = [].slice.call(document.querySelectorAll('.theme-switcher'));
+
+		if (!themeSwitchers.length) return;
+
+		for (const themeSwitcher of themeSwitchers) {
+
+			const themeSwitcherText = document.querySelector('#theme-text');
+			const activeThemeIcon = document.querySelector('.theme-icon-active use');
+			const btnToActive = document.querySelector('[data-bs-theme-value="' + theme + '"]');
+
+			document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
+				element.classList.remove('active');
+				element.setAttribute('aria-pressed', 'false');
+			});
+
+			btnToActive.classList.add('active');
+			btnToActive.setAttribute('aria-pressed', 'true');
+		}
+	}
+
+	window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+		const storedTheme = getStoredTheme();
+		if (storedTheme !== 'light' && storedTheme !== 'dark') {
+			setTheme(getPreferredTheme());
+		}
+	});
+
+	window.addEventListener('DOMContentLoaded', () => {
+		showActiveTheme(getPreferredTheme());
+
+		document.querySelectorAll('[data-bs-theme-value]')
+			.forEach(toggle => {
+				toggle.addEventListener('click', (e) => {
+					e.preventDefault();
+					const theme = toggle.getAttribute('data-bs-theme-value');
+					setStoredTheme(theme);
+					setTheme(theme);
+					showActiveTheme(theme);
+				})
+			})
+	});
+})();
+</script><link rel="icon" type="image/png" sizes="512x512" href="/assets/img/avatars/w.png?h=f0450210247154ad4fef8b892d454abe"><link rel="icon" type="image/png" sizes="512x512" href="/assets/img/avatars/w.png?h=f0450210247154ad4fef8b892d454abe"><link rel="icon" type="image/png" sizes="512x512" href="/assets/img/avatars/w.png?h=f0450210247154ad4fef8b892d454abe"><link rel="icon" type="image/png" sizes="512x512" href="/assets/img/avatars/w.png?h=f0450210247154ad4fef8b892d454abe"><link rel="icon" type="image/png" sizes="512x512" href="/assets/img/avatars/w.png?h=f0450210247154ad4fef8b892d454abe"><link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css?h=83ac1682317609948bba7daa7eadfbc7"><link rel="manifest" href="/manifest.json?h=0787459034a4f9b603db34a58a8dfcab"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"><link rel="stylesheet" href="/assets/css/styles.min.css?h=514ecc469321cef54508bf332878a7a3"></head><body><nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-opacity-25 portfolio-navbar gradient" style="padding-left: 3px;"><div class="container"><a class="navbar-brand logo" href="/index.html">WANSAW</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarNav-1"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li><li class="nav-item"><a class="nav-link" href="/work.html">Projects</a></li><li class="nav-item"><a class="nav-link" href="/contact.html">Apply Now</a></li><li class="nav-item"><a class="nav-link" href="/terms.html">Terms</a></li><li class="nav-item"><a class="nav-link active" href="/privacy.html">Privacy</a></li><li class="nav-item"><a class="nav-link" href="/thanks.html">Donate</a></li></ul></div></div></nav><main class="page contact-page" style="padding-left: 41px;"><br />
+    <h2>1. Introduction</h2>
+<p>Welcome to the Privacy Policy of wansaw.com <br> This policy outlines how we collect, use, disclose, and protect your personal information when you access or use our website and services. <br>By using our services, you consent to the practices described in this Privacy Policy.</p>
+
+<h2>2. Information We Collect</h2>
+<p>We may collect the following types of information:</p>
+<ul>
+    <li>Personal information: We may collect your name, email address, and other contact information when you register or communicate with us.</li>
+    <li>Usage information: We may collect information about your interactions with our website, such as the pages you visit and the resources you access.</li>
+    <li>Log data: Our servers automatically record certain information when you access our website, including your IP address, browser type, and referral URL.</li>
+    <li>Cookies: We use cookies to enhance your browsing experience and gather information about usage patterns. You can choose to disable cookies through your browser settings, but it may affect the functionality of our website.</li>
+</ul>
+
+<h2>3. Use of Information</h2>
+<p>We may use the collected information for the following purposes:</p>
+<ul>
+    <li>To provide and personalize our services to you.</li>
+    <li>To improve our website and services based on your feedback and usage patterns.</li>
+    <li>To send periodic emails or notifications regarding updates, promotions, and educational resources.</li>
+    <li>To enforce our Terms and Conditions and protect the rights, property, and safety of Wansaw and our users.</li>
+</ul>
+
+<h2>4. Disclosure of Information</h2>
+<p>We may disclose your information to:</p>
+<ul>
+    <li>Third-party service providers who assist us in delivering our services and performing related functions.</li>
+    <li>Business partners and educational institutes with whom we collaborate to provide resources and credits.</li>
+    <li>Law enforcement agencies, regulatory authorities, or legal advisors when required by applicable laws or in response to a valid legal process.</li>
+</ul>
+
+<h2>5. Data Security</h2>
+<p>We implement reasonable security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.</p>
+
+<h2>6. Children's Privacy</h2>
+<p>We do not knowingly collect personal information from children under the age of 18. If we become aware that we have inadvertently collected personal information from a child, we will take steps to delete such information from our systems.</p>
+
+<h2>7. Third-Party Websites</h2>
+<p>Our website may contain links to third-party websites or services. We are not responsible for the privacy practices or content of those websites. We encourage you to review the privacy policies of any third-party websites you visit.</p>
+
+<h2>8. Changes to the Privacy Policy</h2>
+<p>Wansaw reserves the right to update or modify this Privacy Policy at any time. Any changes will be effective immediately upon posting on our website. It is your responsibility to review this Privacy Policy periodically for updates.</p>
+
+</main>    <footer class="page-footer py-3 border-top"><div class="container my-4">
+    
+    <div class="social-icons">
+        <a class="me-3" href="https://facebook.com/wansawinc"><i class="icon ion-social-facebook"></i></a><a class="me-3" href="https://instagram.com/amjid.png"><i class="icon ion-social-instagram-outline"></i></a><a class="me-3" href="https://twitter.com/amjiddader"><i class="icon ion-social-twitter"></i></a>
+    </div>
+</div></footer><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script><script src="/assets/js/script.min.js?h=8f2950253cc49508fb3352618a979f35"></script></body></html>

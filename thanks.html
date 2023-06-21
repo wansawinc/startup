@@ -1,0 +1,114 @@
+<!DOCTYPE html><html data-bs-theme="auto" lang="en-gb"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"><title>What we have done so far.</title><meta name="theme-color" content="005777"><link rel="canonical" href="https://wansaw.com/thanks.html"><meta property="og:url" content="https://wansaw.com/thanks.html"><meta name="twitter:description" content="For schools in Kashmir get free hosting, software's SMS &amp; apps.
+If you are a student &amp; need help to build your idea - We got your back."><meta name="twitter:image" content="https://wansaw.com/assets/img/avatars/hd.png"><meta property="og:image" content="https://wansaw.com/assets/img/avatars/hd.png"><meta property="og:type" content="website"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="WANSAW "><meta name="description" content="We have already helped 10+ educational institutes across valley with worth of 24000$ and 100+ Students.">
+			<script>
+(function() {
+
+	// JavaScript snippet handling Dark/Light mode switching
+
+	const getStoredTheme = () => localStorage.getItem('theme');
+	const setStoredTheme = theme => localStorage.setItem('theme', theme);
+	const forcedTheme = document.documentElement.getAttribute('data-bss-forced-theme');
+
+	const getPreferredTheme = () => {
+
+		if (forcedTheme) return forcedTheme;
+
+		const storedTheme = getStoredTheme();
+		if (storedTheme) {
+			return storedTheme;
+		}
+
+		const pageTheme = document.documentElement.getAttribute('data-bs-theme');
+
+		if (pageTheme) {
+			return pageTheme;
+		}
+
+		return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+	}
+
+	const setTheme = theme => {
+		if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+			document.documentElement.setAttribute('data-bs-theme', 'dark');
+		} else {
+			document.documentElement.setAttribute('data-bs-theme', theme);
+		}
+	}
+
+	setTheme(getPreferredTheme());
+
+	const showActiveTheme = (theme, focus = false) => {
+		const themeSwitchers = [].slice.call(document.querySelectorAll('.theme-switcher'));
+
+		if (!themeSwitchers.length) return;
+
+		for (const themeSwitcher of themeSwitchers) {
+
+			const themeSwitcherText = document.querySelector('#theme-text');
+			const activeThemeIcon = document.querySelector('.theme-icon-active use');
+			const btnToActive = document.querySelector('[data-bs-theme-value="' + theme + '"]');
+
+			document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
+				element.classList.remove('active');
+				element.setAttribute('aria-pressed', 'false');
+			});
+
+			btnToActive.classList.add('active');
+			btnToActive.setAttribute('aria-pressed', 'true');
+		}
+	}
+
+	window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+		const storedTheme = getStoredTheme();
+		if (storedTheme !== 'light' && storedTheme !== 'dark') {
+			setTheme(getPreferredTheme());
+		}
+	});
+
+	window.addEventListener('DOMContentLoaded', () => {
+		showActiveTheme(getPreferredTheme());
+
+		document.querySelectorAll('[data-bs-theme-value]')
+			.forEach(toggle => {
+				toggle.addEventListener('click', (e) => {
+					e.preventDefault();
+					const theme = toggle.getAttribute('data-bs-theme-value');
+					setStoredTheme(theme);
+					setTheme(theme);
+					showActiveTheme(theme);
+				})
+			})
+	});
+})();
+</script><link rel="icon" type="image/png" sizes="512x512" href="/assets/img/avatars/w.png?h=f0450210247154ad4fef8b892d454abe"><link rel="icon" type="image/png" sizes="512x512" href="/assets/img/avatars/w.png?h=f0450210247154ad4fef8b892d454abe"><link rel="icon" type="image/png" sizes="512x512" href="/assets/img/avatars/w.png?h=f0450210247154ad4fef8b892d454abe"><link rel="icon" type="image/png" sizes="512x512" href="/assets/img/avatars/w.png?h=f0450210247154ad4fef8b892d454abe"><link rel="icon" type="image/png" sizes="512x512" href="/assets/img/avatars/w.png?h=f0450210247154ad4fef8b892d454abe"><link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css?h=83ac1682317609948bba7daa7eadfbc7"><link rel="manifest" href="/manifest.json?h=0787459034a4f9b603db34a58a8dfcab"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"><link rel="stylesheet" href="/assets/css/styles.min.css?h=514ecc469321cef54508bf332878a7a3"></head><body><nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-opacity-25 portfolio-navbar gradient"><div class="container"><a class="navbar-brand logo" href="/index.html">WANSAW</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarNav"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li><li class="nav-item"><a class="nav-link" href="/work.html">Projects</a></li><li class="nav-item"><a class="nav-link" href="/contact.html">Apply Now</a></li></ul></div></div></nav><main class="page projects-page"><section class="portfolio-block projects-cards"><div class="container">
+    <div class="heading">
+        <h2>Thanks..</h2>
+        
+        
+        <h3>We would like to express our sincere gratitude for your generous contribution to WANSAW. <br>Your support enables us to continue providing free resources and credits worth of 25000$ every year to educational institutes and students in Kashmir</h3>
+<br>
+<h3>Your donation will make a significant impact on the education community, helping students access valuable learning materials and empowering educational institutes with the necessary resources.</h3>
+
+<h4>If you have any questions or require further information, <br>please feel free to contact us at the following address:</h4>
+<br>
+        <hr>
+<address>
+    WANSAW (wansaw.com) <br>
+    Rajbagh Srinagar,UT JK, 190008, INDIA <br>
+    Email: support@wansaw.com<br>
+</address>
+<hr>
+<h1>Thank you once again for your generosity.<br>We truly appreciate your support!</h1>
+
+    </div>
+    
+    
+    <div class="row"></div>
+    
+    
+</div></section></main><footer class="page-footer py-3 border-top"><div class="container my-4">
+    
+    <div class="social-icons">
+        <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_M4ckApu3I7yL3g" async> </script> </form>
+        <a class="me-3" href="https://facebook.com/wansawinc"><i class="icon ion-social-facebook"></i></a><a class="me-3" href="https://instagram.com/amjid.png"><i class="icon ion-social-instagram-outline"></i></a><a class="me-3" href="https://twitter.com/amjiddader"><i class="icon ion-social-twitter"></i></a></div>
+</div></footer><nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-opacity-25 portfolio-navbar gradient" style="padding-left: 3px;"><div class="container"><a class="navbar-brand logo" href="/index.html">WANSAW</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarNav-1"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li><li class="nav-item"><a class="nav-link" href="/work.html">Projects</a></li><li class="nav-item"><a class="nav-link" href="/contact.html">Apply Now</a></li><li class="nav-item"><a class="nav-link" href="/terms.html">Terms</a></li><li class="nav-item"><a class="nav-link" href="/privacy.html">Privacy</a></li><li class="nav-item"><a class="nav-link active" href="/thanks.html">Donate</a></li></ul></div></div></nav><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script><script src="/assets/js/script.min.js?h=8f2950253cc49508fb3352618a979f35"></script></body></html>

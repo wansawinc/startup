@@ -1,0 +1,1038 @@
+<!DOCTYPE html><html data-bs-theme="auto" lang="en-gb"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"><title>Contact - WANSAW</title><meta name="theme-color" content="005777"><link rel="canonical" href="https://wansaw.com/contact.html"><meta property="og:url" content="https://wansaw.com/contact.html"><meta name="description" content="Find products, resources, and programs for every stage of your start-up journey free for Students &amp; Registered Institutes in Kashmir.  "><meta name="twitter:description" content="For schools in Kashmir get free hosting, software's SMS &amp; apps.
+If you are a student &amp; need help to build your idea - We got your back."><meta name="twitter:image" content="https://wansaw.com/assets/img/avatars/hd.png"><meta property="og:image" content="https://wansaw.com/assets/img/avatars/hd.png"><meta property="og:type" content="website"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="WANSAW ">
+			<script>
+(function() {
+
+	// JavaScript snippet handling Dark/Light mode switching
+
+	const getStoredTheme = () => localStorage.getItem('theme');
+	const setStoredTheme = theme => localStorage.setItem('theme', theme);
+	const forcedTheme = document.documentElement.getAttribute('data-bss-forced-theme');
+
+	const getPreferredTheme = () => {
+
+		if (forcedTheme) return forcedTheme;
+
+		const storedTheme = getStoredTheme();
+		if (storedTheme) {
+			return storedTheme;
+		}
+
+		const pageTheme = document.documentElement.getAttribute('data-bs-theme');
+
+		if (pageTheme) {
+			return pageTheme;
+		}
+
+		return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+	}
+
+	const setTheme = theme => {
+		if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+			document.documentElement.setAttribute('data-bs-theme', 'dark');
+		} else {
+			document.documentElement.setAttribute('data-bs-theme', theme);
+		}
+	}
+
+	setTheme(getPreferredTheme());
+
+	const showActiveTheme = (theme, focus = false) => {
+		const themeSwitchers = [].slice.call(document.querySelectorAll('.theme-switcher'));
+
+		if (!themeSwitchers.length) return;
+
+		for (const themeSwitcher of themeSwitchers) {
+
+			const themeSwitcherText = document.querySelector('#theme-text');
+			const activeThemeIcon = document.querySelector('.theme-icon-active use');
+			const btnToActive = document.querySelector('[data-bs-theme-value="' + theme + '"]');
+
+			document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
+				element.classList.remove('active');
+				element.setAttribute('aria-pressed', 'false');
+			});
+
+			btnToActive.classList.add('active');
+			btnToActive.setAttribute('aria-pressed', 'true');
+		}
+	}
+
+	window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+		const storedTheme = getStoredTheme();
+		if (storedTheme !== 'light' && storedTheme !== 'dark') {
+			setTheme(getPreferredTheme());
+		}
+	});
+
+	window.addEventListener('DOMContentLoaded', () => {
+		showActiveTheme(getPreferredTheme());
+
+		document.querySelectorAll('[data-bs-theme-value]')
+			.forEach(toggle => {
+				toggle.addEventListener('click', (e) => {
+					e.preventDefault();
+					const theme = toggle.getAttribute('data-bs-theme-value');
+					setStoredTheme(theme);
+					setTheme(theme);
+					showActiveTheme(theme);
+				})
+			})
+	});
+})();
+</script><link rel="icon" type="image/png" sizes="512x512" href="/assets/img/avatars/w.png?h=f0450210247154ad4fef8b892d454abe"><link rel="icon" type="image/png" sizes="512x512" href="/assets/img/avatars/w.png?h=f0450210247154ad4fef8b892d454abe"><link rel="icon" type="image/png" sizes="512x512" href="/assets/img/avatars/w.png?h=f0450210247154ad4fef8b892d454abe"><link rel="icon" type="image/png" sizes="512x512" href="/assets/img/avatars/w.png?h=f0450210247154ad4fef8b892d454abe"><link rel="icon" type="image/png" sizes="512x512" href="/assets/img/avatars/w.png?h=f0450210247154ad4fef8b892d454abe"><link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css?h=83ac1682317609948bba7daa7eadfbc7"><link rel="manifest" href="/manifest.json?h=0787459034a4f9b603db34a58a8dfcab"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"><link rel="stylesheet" href="/assets/css/styles.min.css?h=514ecc469321cef54508bf332878a7a3"></head><body><main class="page contact-page"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html class="supernova">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="alternate" type="application/json+oembed" href="https://www.jotform.com/oembed/?format=json&amp;url=https%3A%2F%2Fform.jotform.com%2F231712338936459" title="oEmbed Form">
+        <link rel="alternate" type="text/xml+oembed" href="https://www.jotform.com/oembed/?format=xml&amp;url=https%3A%2F%2Fform.jotform.com%2F231712338936459" title="oEmbed Form">
+        <meta property="og:title" content="WANSAW START UP">
+        <meta property="og:url" content="https://form.jotform.com/231712338936459">
+        <meta property="og:description" content="Please click the link to complete this form.">
+        <meta name="slack-app-id" content="AHNMASS8M">
+        <meta property="og:image" content="https://www.jotform.com/uploads/amjiddader/form_files/w.6492d0bd963e29.29288126.png"/>
+        <link rel="shortcut icon" href="https://cdn.jotfor.ms/assets/img/favicons/favicon-2021-light%402x.png">
+        <script>
+            var favicon = document.querySelector('link[rel="shortcut icon"]');
+            window.isDarkMode = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+            if (favicon && window.isDarkMode) {
+                favicon.href = favicon.href.replaceAll('favicon-2021-light%402x.png', 'favicon-2021-dark%402x.png');
+            }
+        </script>
+        <link rel="canonical" href="https://form.jotform.com/231712338936459"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1"/>
+        <meta name="HandheldFriendly" content="true"/>
+        <title>WANSAW START UP</title>
+        <style type="text/css">
+            @media print {
+                .form-section {
+                    display: inline!important
+                }
+
+                .form-pagebreak {
+                    display: none!important
+                }
+
+                .form-section-closed {
+                    height: auto!important
+                }
+
+                .page-section {
+                    position: initial!important
+                }
+            }
+        </style>
+        <link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?v=3.3.42973&themeRevisionID=5f30e2a790832f3e96009402"/>
+        <link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/css/styles/payment/payment_styles.css?3.3.42973"/>
+        <link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/css/styles/payment/payment_feature.css?3.3.42973"/>
+        <link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/stylebuilder/donationBox.css?v=3.3.42973">
+        <style type="text/css" id="form-designer-style">
+            /* Injected CSS Code */
+            /*PREFERENCES STYLE*/
+            .form-all {
+                font-family: Inter, sans-serif;
+            }
+
+            .form-label.form-label-auto {
+                display: inline-block;
+                float: left;
+                text-align: left;
+            }
+
+            .form-line {
+                margin-top: 12px 36px 12px 36px px;
+                margin-bottom: 12px 36px 12px 36px px;
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+
+            .form-all {
+                max-width: 752px;
+                width: 100%;
+            }
+
+            .form-label.form-label-left, .form-label.form-label-right, .form-label.form-label-left.form-label-auto, .form-label.form-label-right.form-label-auto {
+                width: 230px;
+            }
+
+            .form-all {
+                font-size: 16px
+            }
+
+            .supernova .form-all, .form-all {
+                background-color: #fff;
+            }
+
+            .form-all {
+                color: #2C3345;
+            }
+
+            .form-header-group .form-header {
+                color: #2C3345;
+            }
+
+            .form-header-group .form-subHeader {
+                color: #2C3345;
+            }
+
+            .form-label-top, .form-label-left, .form-label-right, .form-html, .form-checkbox-item label, .form-radio-item label, span.FITB .qb-checkbox-label, span.FITB .qb-radiobox-label, span.FITB .form-radio label, span.FITB .form-checkbox label, [data-blotid][data-type=checkbox] [data-labelid], [data-blotid][data-type=radiobox] [data-labelid], span.FITB-inptCont[data-type=checkbox] label, span.FITB-inptCont[data-type=radiobox] label {
+                color: #2C3345;
+            }
+
+            .form-sub-label {
+                color: #464d5f;
+            }
+
+            .supernova {
+                background-color: #ecedf3;
+            }
+
+            .supernova body {
+                background: transparent;
+            }
+
+            .form-textbox, .form-textarea, .form-dropdown, .form-radio-other-input, .form-checkbox-other-input, .form-captcha input, .form-spinner input {
+                background-color: #fff;
+            }
+
+            .supernova {
+                background-image: none;
+            }
+
+            #stage {
+                background-image: none;
+            }
+
+            ; .form-all {
+                background-image: none;
+            }
+
+            .form-all {
+                position: relative;
+            }
+
+            .form-all:before {
+                content: "";
+                background-image: url("https://www.jotform.com/uploads/amjiddader/form_files/w.6492d0bd963e29.29288126.png");
+                display: inline-block;
+                height: 140px;
+                position: absolute;
+                background-size: 140px 140px;
+                background-repeat: no-repeat;
+                width: 100%;
+            }
+
+            .form-all {
+                margin-top: 160px;
+            }
+
+            .form-all:before {
+                top: -150px;
+                background-position: top center;
+                left: 0;
+            }
+
+            /*PREFERENCES STYLE*/
+            /*__INSPECT_SEPERATOR__*/
+            .form-label.form-label-auto {
+                display: inline-block;
+                float: left;
+                text-align: left;
+            }
+
+            /* Injected CSS Code */
+        </style>
+        <script src="https://cdn02.jotfor.ms/static/prototype.forms.js?3.3.42973" type="text/javascript"></script>
+        <script src="https://cdn03.jotfor.ms/static/jotform.forms.js?3.3.42973" type="text/javascript"></script>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.js"></script>
+        <script src="https://cdn01.jotfor.ms/js/vendor/jquery-1.8.0.min.js?v=3.3.42973" type="text/javascript"></script>
+        <script defer src="https://cdn02.jotfor.ms/js/vendor/maskedinput.min.js?v=3.3.42973" type="text/javascript"></script>
+        <script defer src="https://cdn03.jotfor.ms/js/vendor/jquery.maskedinput.min.js?v=3.3.42973" type="text/javascript"></script>
+        <script src="https://cdn01.jotfor.ms/s/umd/773e0c75c18/for-common-lib.js" type="text/javascript"></script>
+        <script src="https://cdn01.jotfor.ms/js/payments/validategateways.js?v=3.3.42973" type="text/javascript"></script>
+        <script src="https://cdn01.jotfor.ms/s/umd/773e0c75c18/for-widgets-server.js?v=3.3.42973" type="text/javascript"></script>
+        <script type="text/javascript">
+            JotForm.newDefaultTheme = true;
+            JotForm.extendsNewTheme = false;
+            JotForm.singleProduct = false;
+            JotForm.newPaymentUIForNewCreatedForms = false;
+            JotForm.newPaymentUI = true;
+            JotForm.submitError = "jumpToFirstError";
+
+            JotForm.init(function() {
+                /*INIT-START*/
+                JotForm.shuffleOptions("19");
+                JotForm.description('input_10', 'Enter your valid name as shown on Aadhar Card');
+                setTimeout(function() {
+                    $('input_11').hint('ex: myname@example.com');
+                }, 20);
+                JotForm.setPhoneMaskingValidator('input_12_full', '\u0028\u0023\u0023\u0023\u0029 \u0023\u0023\u0023\u002d\u0023\u0023\u0023\u0023');
+                if (window.JotForm && JotForm.accessible)
+                    $('input_14').setAttribute('tabindex', 0);
+                setTimeout(function() {
+                    $('input_14').hint('BSWYA0000A');
+                }, 20);
+                if (window.JotForm && JotForm.accessible)
+                    $('input_15').setAttribute('tabindex', 0);
+                setTimeout(function() {
+                    $('input_15').hint('Personal Aadhar Number ');
+                }, 20);
+                if (window.JotForm && JotForm.accessible)
+                    $('input_29').setAttribute('tabindex', 0);
+                if (window.JotForm && JotForm.accessible)
+                    $('input_21').setAttribute('tabindex', 0);
+                setTimeout(function() {
+                    $('input_21').hint('Name of your institute as per record.');
+                }, 20);
+                if (window.JotForm && JotForm.accessible)
+                    $('input_20').setAttribute('tabindex', 0);
+                setTimeout(function() {
+                    $('input_20').hint('JKBOSE/CBSE Affiliation number.');
+                }, 20);
+                if (window.JotForm && JotForm.accessible)
+                    $('input_25').setAttribute('tabindex', 0);
+
+                if (window.commonLib && window.commonLib.BGColorLightness('#fff')) {
+                    document.getElementById('FITB_35').setAttribute('data-darkmode', 'true');
+                }
+                if (window.JotForm && JotForm.accessible)
+                    $('input_6').setAttribute('tabindex', 0);
+                JotForm.setCustomHint('input_6', 'Make sure you information you provide is correct. Please explain what you are looking for & What we can do for you and Also Describe why should we offer you our free service?');
+                /*INIT-END*/
+            });
+
+            JotForm.prepareCalculationsOnTheFly([null, null, null, null, null, null, {
+                "name": "requestingInformation",
+                "qid": "6",
+                "subLabel": "Please describe what are you looking for.",
+                "text": "Requesting Information Regarding",
+                "type": "control_textarea"
+            }, null, null, null, {
+                "description": "Enter your valid name as shown on Aadhar Card",
+                "name": "name",
+                "qid": "10",
+                "text": "Name",
+                "type": "control_fullname"
+            }, {
+                "name": "email11",
+                "qid": "11",
+                "subLabel": "someone@example.com",
+                "text": "E-mail",
+                "type": "control_email"
+            }, {
+                "name": "phoneNumber12",
+                "qid": "12",
+                "text": "Phone Number",
+                "type": "control_phone"
+            }, {
+                "name": "clickTo",
+                "qid": "13",
+                "text": "Basic Information",
+                "type": "control_head"
+            }, {
+                "description": "",
+                "name": "panNumber",
+                "qid": "14",
+                "subLabel": "Only If you have valid pan number ",
+                "text": "PAN Number",
+                "type": "control_textbox"
+            }, {
+                "description": "",
+                "name": "aadharNumber",
+                "qid": "15",
+                "subLabel": "Valid Aadhar Card Number",
+                "text": "Aadhar Number",
+                "type": "control_textbox"
+            }, {
+                "description": "",
+                "name": "address",
+                "qid": "16",
+                "text": "Address",
+                "type": "control_address"
+            }, null, null, {
+                "description": "",
+                "name": "type",
+                "qid": "19",
+                "subLabel": "For individuals choose STUDENT ",
+                "text": "Please Choose",
+                "type": "control_dropdown"
+            }, {
+                "description": "",
+                "name": "affiliationNumber",
+                "qid": "20",
+                "subLabel": "Enter you school registration\u002F affiliation number.",
+                "text": "Affiliation Number",
+                "type": "control_textbox"
+            }, {
+                "description": "",
+                "name": "typeA21",
+                "qid": "21",
+                "subLabel": "Name of your institute as per documents. ",
+                "text": "Institute Name",
+                "type": "control_textbox"
+            }, null, {
+                "description": "",
+                "name": "affilationType",
+                "qid": "23",
+                "subLabel": "",
+                "text": "Affiliation With",
+                "type": "control_dropdown"
+            }, null, {
+                "description": "",
+                "name": "instituteWebsite",
+                "qid": "25",
+                "subLabel": "Please enter website if any. ( optional)",
+                "text": "Institute Website ",
+                "type": "control_textbox"
+            }, {
+                "description": "",
+                "name": "instituteType",
+                "qid": "26",
+                "subLabel": "",
+                "text": "Institute type",
+                "type": "control_dropdown"
+            }, null, {
+                "description": "",
+                "name": "noOf",
+                "qid": "28",
+                "subLabel": "",
+                "text": "No of students ",
+                "type": "control_dropdown"
+            }, {
+                "description": "",
+                "name": "qualification",
+                "qid": "29",
+                "subLabel": "Enter your academic qualification.",
+                "text": "Qualification ",
+                "type": "control_textbox"
+            }, null, {
+                "description": "",
+                "name": "educationFeild",
+                "qid": "31",
+                "subLabel": "Choose your stream\u002Fsubject.",
+                "text": "Education Field",
+                "type": "control_dropdown"
+            }, null, null, {
+                "description": "",
+                "name": "gender",
+                "qid": "34",
+                "subLabel": "",
+                "text": "Gender",
+                "type": "control_dropdown"
+            }, {
+                "description": "",
+                "name": "input35",
+                "qid": "35",
+                "template": "Enter your social network account username&#x2F;links if you do not have any enter NO\u003Cbr\u002F\u003EYour Facebook Account Link&#x2F;Username {shorttext-4}   \u003Cbr\u002F\u003EYour Instagram Account Link&#x2F;Username {shorttext-3}   \u003Cbr\u002F\u003EYour Twitter Account Link&#x2F;Username {shorttext-5}   \u003Cbr\u002F\u003EYour Telegram Account Link&#x2F;Username {shorttext-6}   ",
+                "text": "",
+                "type": "control_inline"
+            }, {
+                "name": "submit",
+                "qid": "36",
+                "text": "Submit",
+                "type": "control_button"
+            }, null, null, null, null, null, null, null, null, null, null, {
+                "name": "divider",
+                "qid": "47",
+                "text": "Divider",
+                "type": "control_divider"
+            }, null, {
+                "name": "socialMedia",
+                "qid": "49",
+                "text": "Social Media Link",
+                "type": "control_collapse"
+            }, {
+                "name": "forEducation",
+                "qid": "50",
+                "text": "For Education Institutes Only",
+                "type": "control_collapse"
+            }, {
+                "name": "personalInformation",
+                "qid": "51",
+                "text": "Personal Information",
+                "type": "control_collapse"
+            }, {
+                "name": "oneLast",
+                "qid": "52",
+                "text": "One last step...",
+                "type": "control_collapse"
+            }, null, {
+                "name": "typeA",
+                "qid": "54",
+                "text": "You can also record your message.",
+                "type": "control_widget"
+            }]);
+            setTimeout(function() {
+                JotForm.paymentExtrasOnTheFly([null, null, null, null, null, null, {
+                    "name": "requestingInformation",
+                    "qid": "6",
+                    "subLabel": "Please describe what are you looking for.",
+                    "text": "Requesting Information Regarding",
+                    "type": "control_textarea"
+                }, null, null, null, {
+                    "description": "Enter your valid name as shown on Aadhar Card",
+                    "name": "name",
+                    "qid": "10",
+                    "text": "Name",
+                    "type": "control_fullname"
+                }, {
+                    "name": "email11",
+                    "qid": "11",
+                    "subLabel": "someone@example.com",
+                    "text": "E-mail",
+                    "type": "control_email"
+                }, {
+                    "name": "phoneNumber12",
+                    "qid": "12",
+                    "text": "Phone Number",
+                    "type": "control_phone"
+                }, {
+                    "name": "clickTo",
+                    "qid": "13",
+                    "text": "Basic Information",
+                    "type": "control_head"
+                }, {
+                    "description": "",
+                    "name": "panNumber",
+                    "qid": "14",
+                    "subLabel": "Only If you have valid pan number ",
+                    "text": "PAN Number",
+                    "type": "control_textbox"
+                }, {
+                    "description": "",
+                    "name": "aadharNumber",
+                    "qid": "15",
+                    "subLabel": "Valid Aadhar Card Number",
+                    "text": "Aadhar Number",
+                    "type": "control_textbox"
+                }, {
+                    "description": "",
+                    "name": "address",
+                    "qid": "16",
+                    "text": "Address",
+                    "type": "control_address"
+                }, null, null, {
+                    "description": "",
+                    "name": "type",
+                    "qid": "19",
+                    "subLabel": "For individuals choose STUDENT ",
+                    "text": "Please Choose",
+                    "type": "control_dropdown"
+                }, {
+                    "description": "",
+                    "name": "affiliationNumber",
+                    "qid": "20",
+                    "subLabel": "Enter you school registration\u002F affiliation number.",
+                    "text": "Affiliation Number",
+                    "type": "control_textbox"
+                }, {
+                    "description": "",
+                    "name": "typeA21",
+                    "qid": "21",
+                    "subLabel": "Name of your institute as per documents. ",
+                    "text": "Institute Name",
+                    "type": "control_textbox"
+                }, null, {
+                    "description": "",
+                    "name": "affilationType",
+                    "qid": "23",
+                    "subLabel": "",
+                    "text": "Affiliation With",
+                    "type": "control_dropdown"
+                }, null, {
+                    "description": "",
+                    "name": "instituteWebsite",
+                    "qid": "25",
+                    "subLabel": "Please enter website if any. ( optional)",
+                    "text": "Institute Website ",
+                    "type": "control_textbox"
+                }, {
+                    "description": "",
+                    "name": "instituteType",
+                    "qid": "26",
+                    "subLabel": "",
+                    "text": "Institute type",
+                    "type": "control_dropdown"
+                }, null, {
+                    "description": "",
+                    "name": "noOf",
+                    "qid": "28",
+                    "subLabel": "",
+                    "text": "No of students ",
+                    "type": "control_dropdown"
+                }, {
+                    "description": "",
+                    "name": "qualification",
+                    "qid": "29",
+                    "subLabel": "Enter your academic qualification.",
+                    "text": "Qualification ",
+                    "type": "control_textbox"
+                }, null, {
+                    "description": "",
+                    "name": "educationFeild",
+                    "qid": "31",
+                    "subLabel": "Choose your stream\u002Fsubject.",
+                    "text": "Education Field",
+                    "type": "control_dropdown"
+                }, null, null, {
+                    "description": "",
+                    "name": "gender",
+                    "qid": "34",
+                    "subLabel": "",
+                    "text": "Gender",
+                    "type": "control_dropdown"
+                }, {
+                    "description": "",
+                    "name": "input35",
+                    "qid": "35",
+                    "template": "Enter your social network account username&#x2F;links if you do not have any enter NO\u003Cbr\u002F\u003EYour Facebook Account Link&#x2F;Username {shorttext-4}   \u003Cbr\u002F\u003EYour Instagram Account Link&#x2F;Username {shorttext-3}   \u003Cbr\u002F\u003EYour Twitter Account Link&#x2F;Username {shorttext-5}   \u003Cbr\u002F\u003EYour Telegram Account Link&#x2F;Username {shorttext-6}   ",
+                    "text": "",
+                    "type": "control_inline"
+                }, {
+                    "name": "submit",
+                    "qid": "36",
+                    "text": "Submit",
+                    "type": "control_button"
+                }, null, null, null, null, null, null, null, null, null, null, {
+                    "name": "divider",
+                    "qid": "47",
+                    "text": "Divider",
+                    "type": "control_divider"
+                }, null, {
+                    "name": "socialMedia",
+                    "qid": "49",
+                    "text": "Social Media Link",
+                    "type": "control_collapse"
+                }, {
+                    "name": "forEducation",
+                    "qid": "50",
+                    "text": "For Education Institutes Only",
+                    "type": "control_collapse"
+                }, {
+                    "name": "personalInformation",
+                    "qid": "51",
+                    "text": "Personal Information",
+                    "type": "control_collapse"
+                }, {
+                    "name": "oneLast",
+                    "qid": "52",
+                    "text": "One last step...",
+                    "type": "control_collapse"
+                }, null, {
+                    "name": "typeA",
+                    "qid": "54",
+                    "text": "You can also record your message.",
+                    "type": "control_widget"
+                }]);
+            }, 20);
+        </script>
+    </head>
+    <body>
+        <form class="jotform-form" action="https://submit.jotform.com/submit/231712338936459" method="post" name="form_231712338936459" id="231712338936459" accept-charset="utf-8" autocomplete="on">
+            <input type="hidden" name="formID" value="231712338936459"/>
+            <input type="hidden" id="JWTContainer" value=""/>
+            <input type="hidden" id="cardinalOrderNumber" value=""/>
+            <div role="main" class="form-all">
+                <ul class="form-section page-section">
+                    <li id="cid_13" class="form-input-wide" data-type="control_head">
+                        <div class="form-header-group  header-large">
+                            <div class="header-text httal htvam">
+                                <h1 id="header_13" class="form-header" data-component="header">Basic Information</h1>
+                                <div id="subHeader_13" class="form-subHeader">Make sure provided information is correct.</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="form-line jf-required" data-type="control_dropdown" id="id_19">
+                        <label class="form-label form-label-left form-label-auto" id="label_19" for="input_19">
+                            Please Choose<span class="form-required">*</span>
+                        </label>
+                        <div id="cid_19" class="form-input jf-required" data-layout="half">
+                            <span class="form-sub-label-container" style="vertical-align:top">
+                                <select class="form-dropdown validate[required]" id="input_19" name="q19_type" style="width:310px" data-component="dropdown" required="" aria-label="Please Choose">
+                                    <option value="">Please Select</option>
+                                    <option value="Student">Student</option>
+                                    <option value="institute">institute</option>
+                                </select>
+                                <label class="form-sub-label" for="input_19" id="sublabel_input_19" style="min-height:13px" aria-hidden="false">For individuals choose STUDENT </label>
+                            </span>
+                        </div>
+                    </li>
+                    <li class="form-line jf-required" data-type="control_fullname" id="id_10">
+                        <label class="form-label form-label-left form-label-auto" id="label_10" for="first_10">
+                            Name<span class="form-required">*</span>
+                        </label>
+                        <div id="cid_10" class="form-input jf-required" data-layout="full">
+                            <div data-wrapper-react="true">
+                                <span class="form-sub-label-container" style="vertical-align:top" data-input-type="first">
+                                    <input type="text" id="first_10" name="q10_name[first]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_10 given-name" size="10" value="" data-component="first" aria-labelledby="label_10 sublabel_10_first" required=""/>
+                                    <label class="form-sub-label" for="first_10" id="sublabel_10_first" style="min-height:13px" aria-hidden="false">First Name</label>
+                                </span>
+                                <span class="form-sub-label-container" style="vertical-align:top" data-input-type="last">
+                                    <input type="text" id="last_10" name="q10_name[last]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_10 family-name" size="15" value="" data-component="last" aria-labelledby="label_10 sublabel_10_last" required=""/>
+                                    <label class="form-sub-label" for="last_10" id="sublabel_10_last" style="min-height:13px" aria-hidden="false">Last Name</label>
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="form-line jf-required" data-type="control_dropdown" id="id_34">
+                        <label class="form-label form-label-left form-label-auto" id="label_34" for="input_34">
+                            Gender<span class="form-required">*</span>
+                        </label>
+                        <div id="cid_34" class="form-input jf-required" data-layout="half">
+                            <select class="form-dropdown validate[required]" id="input_34" name="q34_gender" style="width:310px" data-component="dropdown" required="" aria-label="Gender">
+                                <option value="">Please Select</option>
+                                <option value="Male">Male</option>
+                                <option value="Female ">Female </option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="form-line jf-required" data-type="control_email" id="id_11">
+                        <label class="form-label form-label-left form-label-auto" id="label_11" for="input_11">
+                            E-mail<span class="form-required">*</span>
+                        </label>
+                        <div id="cid_11" class="form-input jf-required" data-layout="half">
+                            <span class="form-sub-label-container" style="vertical-align:top">
+                                <input type="email" id="input_11" name="q11_email11" class="form-textbox validate[required, Email]" data-defaultvalue="" style="width:310px" size="310" value="" placeholder="ex: myname@example.com" data-component="email" aria-labelledby="label_11 sublabel_input_11" required=""/>
+                                <label class="form-sub-label" for="input_11" id="sublabel_input_11" style="min-height:13px" aria-hidden="false">someone@example.com</label>
+                            </span>
+                        </div>
+                    </li>
+                    <li class="form-line jf-required" data-type="control_phone" id="id_12" data-compound-hint="94190*****">
+                        <label class="form-label form-label-left form-label-auto" id="label_12" for="input_12_full">
+                            Phone Number<span class="form-required">*</span>
+                        </label>
+                        <div id="cid_12" class="form-input jf-required" data-layout="half">
+                            <span class="form-sub-label-container" style="vertical-align:top">
+                                <input type="tel" id="input_12_full" name="q12_phoneNumber12[full]" data-type="mask-number" class="mask-phone-number form-textbox validate[required, Fill Mask]" data-defaultvalue="" autoComplete="section-input_12 tel-national" style="width:310px" data-masked="true" value="" placeholder="94190*****" data-component="phone" aria-labelledby="label_12 sublabel_12_masked" required=""/>
+                                <label class="form-sub-label" for="input_12_full" id="sublabel_12_masked" style="min-height:13px" aria-hidden="false">Enter your valid phone number</label>
+                            </span>
+                        </div>
+                    </li>
+                    <li class="form-line jf-required" data-type="control_address" id="id_16" data-compound-hint=",,,,Please Select,,Please Select,">
+                        <label class="form-label form-label-left form-label-auto" id="label_16" for="input_16_addr_line1">
+                            Address<span class="form-required">*</span>
+                        </label>
+                        <div id="cid_16" class="form-input jf-required" data-layout="full">
+                            <div summary="" class="form-address-table jsTest-addressField">
+                                <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+                                    <span class="form-address-line form-address-street-line jsTest-address-lineField">
+                                        <span class="form-sub-label-container" style="vertical-align:top">
+                                            <input type="text" id="input_16_addr_line1" name="q16_address[addr_line1]" class="form-textbox form-address-line" data-defaultvalue="" autoComplete="section-input_16 address-line1" value="" data-component="address_line_1" aria-labelledby="label_16 sublabel_16_addr_line1"/>
+                                            <label class="form-sub-label" for="input_16_addr_line1" id="sublabel_16_addr_line1" style="min-height:13px" aria-hidden="false">Street Address</label>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="form-address-line-wrapper jsTest-address-line-wrapperField" style="display:none">
+                                    <span class="form-address-line form-address-street-line jsTest-address-lineField">
+                                        <span class="form-sub-label-container" style="vertical-align:top">
+                                            <input type="text" id="input_16_addr_line2" name="q16_address[addr_line2]" class="form-textbox form-address-line" data-defaultvalue="" autoComplete="section-input_16 off" value="" data-component="address_line_2" aria-labelledby="label_16 sublabel_16_addr_line2"/>
+                                            <label class="form-sub-label" for="input_16_addr_line2" id="sublabel_16_addr_line2" style="min-height:13px" aria-hidden="false">Street Address Line 2</label>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+                                    <span class="form-address-line form-address-city-line jsTest-address-lineField ">
+                                        <span class="form-sub-label-container" style="vertical-align:top">
+                                            <input type="text" id="input_16_city" name="q16_address[city]" class="form-textbox validate[required] form-address-city" data-defaultvalue="" autoComplete="section-input_16 address-level2" value="" data-component="city" aria-labelledby="label_16 sublabel_16_city" required=""/>
+                                            <label class="form-sub-label" for="input_16_city" id="sublabel_16_city" style="min-height:13px" aria-hidden="false">City</label>
+                                        </span>
+                                    </span>
+                                    <span class="form-address-line form-address-state-line jsTest-address-lineField form-address-hiddenLine" style="display:none">
+                                        <span class="form-sub-label-container" style="vertical-align:top">
+                                            <input type="text" id="input_16_state" name="q16_address[state]" class="form-textbox form-address-state" data-defaultvalue="" autoComplete="section-input_16 address-level1" value="" data-component="state" aria-labelledby="label_16 sublabel_16_state"/>
+                                            <label class="form-sub-label" for="input_16_state" id="sublabel_16_state" style="min-height:13px" aria-hidden="false">State / Province</label>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
+                                    <span class="form-address-line form-address-zip-line jsTest-address-lineField ">
+                                        <span class="form-sub-label-container" style="vertical-align:top">
+                                            <input type="text" id="input_16_postal" name="q16_address[postal]" class="form-textbox validate[required] form-address-postal" data-defaultvalue="" autoComplete="section-input_16 postal-code" value="" data-component="zip" aria-labelledby="label_16 sublabel_16_postal" required=""/>
+                                            <label class="form-sub-label" for="input_16_postal" id="sublabel_16_postal" style="min-height:13px" aria-hidden="false">Pin Code</label>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <ul class="form-section" id="section_51">
+                        <li id="cid_51" class="form-input-wide" data-type="control_collapse">
+                            <div class="form-collapse-table" id="collapse_51" data-component="collapse">
+                                <span class="form-collapse-mid" id="collapse-text_51">Personal Information</span>
+                                <span class="form-collapse-right form-collapse-right-show"></span>
+                            </div>
+                        </li>
+                        <li class="form-line jf-required" data-type="control_textbox" id="id_14">
+                            <label class="form-label form-label-left form-label-auto" id="label_14" for="input_14">
+                                PAN Number<span class="form-required">*</span>
+                            </label>
+                            <div id="cid_14" class="form-input jf-required" data-layout="half">
+                                <span class="form-sub-label-container" style="vertical-align:top">
+                                    <input type="text" id="input_14" name="q14_panNumber" data-type="input-textbox" class="form-textbox validate[required, AlphaNumeric]" data-defaultvalue="" style="width:310px" size="310" value="" placeholder="BSWYA0000A" data-component="textbox" aria-labelledby="label_14 sublabel_input_14" required=""/>
+                                    <label class="form-sub-label" for="input_14" id="sublabel_input_14" style="min-height:13px" aria-hidden="false">Only If you have valid pan number </label>
+                                </span>
+                            </div>
+                        </li>
+                        <li class="form-line jf-required" data-type="control_textbox" id="id_15">
+                            <label class="form-label form-label-left form-label-auto" id="label_15" for="input_15">
+                                Aadhar Number<span class="form-required">*</span>
+                            </label>
+                            <div id="cid_15" class="form-input jf-required" data-layout="half">
+                                <span class="form-sub-label-container" style="vertical-align:top">
+                                    <input type="text" id="input_15" name="q15_aadharNumber" data-type="input-textbox" class="form-textbox validate[required, Numeric]" data-defaultvalue="" style="width:310px" size="310" value="" placeholder="Personal Aadhar Number " data-component="textbox" aria-labelledby="label_15 sublabel_input_15" required=""/>
+                                    <label class="form-sub-label" for="input_15" id="sublabel_input_15" style="min-height:13px" aria-hidden="false">Valid Aadhar Card Number</label>
+                                </span>
+                            </div>
+                        </li>
+                        <li class="form-line jf-required" data-type="control_textbox" id="id_29">
+                            <label class="form-label form-label-left form-label-auto" id="label_29" for="input_29">
+                                Qualification <span class="form-required">*</span>
+                            </label>
+                            <div id="cid_29" class="form-input jf-required" data-layout="half">
+                                <span class="form-sub-label-container" style="vertical-align:top">
+                                    <input type="text" id="input_29" name="q29_qualification" data-type="input-textbox" class="form-textbox validate[required]" data-defaultvalue="" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_29 sublabel_input_29" required=""/>
+                                    <label class="form-sub-label" for="input_29" id="sublabel_input_29" style="min-height:13px" aria-hidden="false">Enter your academic qualification.</label>
+                                </span>
+                            </div>
+                        </li>
+                        <li class="form-line jf-required" data-type="control_dropdown" id="id_31">
+                            <label class="form-label form-label-left form-label-auto" id="label_31" for="input_31">
+                                Education Field<span class="form-required">*</span>
+                            </label>
+                            <div id="cid_31" class="form-input jf-required" data-layout="half">
+                                <span class="form-sub-label-container" style="vertical-align:top">
+                                    <select class="form-dropdown validate[required]" id="input_31" name="q31_educationFeild" style="width:310px" data-component="dropdown" required="" aria-label="Education Field">
+                                        <option value="">Please Select</option>
+                                        <option value="Arts">Arts</option>
+                                        <option value="Biology ">Biology </option>
+                                        <option value="Chemistry ">Chemistry </option>
+                                        <option value="Physics ">Physics </option>
+                                        <option value="Literature">Literature</option>
+                                        <option value="Computer ">Computer </option>
+                                        <option value="Data Science ">Data Science </option>
+                                        <option value="IOT">IOT</option>
+                                        <option value="Security ">Security </option>
+                                        <option value="Computer Technology ">Computer Technology </option>
+                                        <option value="Info Technology ">Info Technology </option>
+                                        <option value="Medical Technology ">Medical Technology </option>
+                                        <option value="Networking ">Networking </option>
+                                        <option value="Kitchen ">Kitchen </option>
+                                    </select>
+                                    <label class="form-sub-label" for="input_31" id="sublabel_input_31" style="min-height:13px" aria-hidden="false">Choose your stream/subject.</label>
+                                </span>
+                            </div>
+                        </li>
+                        <li class="form-line" data-type="control_divider" id="id_47">
+                            <div id="cid_47" class="form-input-wide" data-layout="full">
+                                <div class="divider" data-component="divider" style="border-bottom-width:1px;border-bottom-style:solid;border-color:#ecedf3;height:1px;margin-left:0px;margin-right:0px;margin-top:5px;margin-bottom:5px"></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="form-section" id="section_50">
+                        <li id="cid_50" class="form-input-wide" data-type="control_collapse">
+                            <div class="form-collapse-table" id="collapse_50" data-component="collapse">
+                                <span class="form-collapse-mid" id="collapse-text_50">For Education Institutes Only</span>
+                                <span class="form-collapse-right form-collapse-right-show"></span>
+                            </div>
+                        </li>
+                        <li class="form-line" data-type="control_dropdown" id="id_26">
+                            <label class="form-label form-label-left form-label-auto" id="label_26" for="input_26">Institute type </label>
+                            <div id="cid_26" class="form-input" data-layout="half">
+                                <select class="form-dropdown" id="input_26" name="q26_instituteType" style="width:310px" data-component="dropdown" aria-label="Institute type">
+                                    <option value="">Please Select</option>
+                                    <option value="Home School">Home School</option>
+                                    <option value="Middle School">Middle School</option>
+                                    <option value="High School ">High School </option>
+                                    <option value="Senior Secondary ">Senior Secondary </option>
+                                    <option value="College">College</option>
+                                    <option value="Madrasa ">Madrasa </option>
+                                </select>
+                            </div>
+                        </li>
+                        <li class="form-line" data-type="control_textbox" id="id_21">
+                            <label class="form-label form-label-left form-label-auto" id="label_21" for="input_21">Institute Name </label>
+                            <div id="cid_21" class="form-input" data-layout="half">
+                                <span class="form-sub-label-container" style="vertical-align:top">
+                                    <input type="text" id="input_21" name="q21_typeA21" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" value="" placeholder="Name of your institute as per record." data-component="textbox" aria-labelledby="label_21 sublabel_input_21"/>
+                                    <label class="form-sub-label" for="input_21" id="sublabel_input_21" style="min-height:13px" aria-hidden="false">Name of your institute as per documents. </label>
+                                </span>
+                            </div>
+                        </li>
+                        <li class="form-line" data-type="control_dropdown" id="id_23">
+                            <label class="form-label form-label-left form-label-auto" id="label_23" for="input_23">Affiliation With </label>
+                            <div id="cid_23" class="form-input" data-layout="half">
+                                <select class="form-dropdown" id="input_23" name="q23_affilationType" style="width:310px" data-component="dropdown" aria-label="Affiliation With">
+                                    <option value="">Please Select</option>
+                                    <option value="JKBOSE">JKBOSE</option>
+                                    <option value="CBSE">CBSE</option>
+                                    <option value="UOK">UOK</option>
+                                    <option value="CUK">CUK</option>
+                                    <option value="OTHER">OTHER</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li class="form-line" data-type="control_textbox" id="id_20">
+                            <label class="form-label form-label-left form-label-auto" id="label_20" for="input_20">Affiliation Number </label>
+                            <div id="cid_20" class="form-input" data-layout="half">
+                                <span class="form-sub-label-container" style="vertical-align:top">
+                                    <input type="text" id="input_20" name="q20_affiliationNumber" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" value="" placeholder="JKBOSE/CBSE Affiliation number." data-component="textbox" aria-labelledby="label_20 sublabel_input_20"/>
+                                    <label class="form-sub-label" for="input_20" id="sublabel_input_20" style="min-height:13px" aria-hidden="false">Enter you school registration/ affiliation number.</label>
+                                </span>
+                            </div>
+                        </li>
+                        <li class="form-line" data-type="control_dropdown" id="id_28">
+                            <label class="form-label form-label-left form-label-auto" id="label_28" for="input_28">No of students </label>
+                            <div id="cid_28" class="form-input" data-layout="half">
+                                <select class="form-dropdown" id="input_28" name="q28_noOf" style="width:310px" data-component="dropdown" aria-label="No of students ">
+                                    <option value="">Please Select</option>
+                                    <option value="0 - 100">0 - 100</option>
+                                    <option value="101 - 400">101 - 400</option>
+                                    <option value="401 - 800 ">401 - 800 </option>
+                                    <option value="801 - 1000">801 - 1000</option>
+                                    <option value="1001 - 2000">1001 - 2000</option>
+                                    <option value="2001 - 300">2001 - 300</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li class="form-line" data-type="control_textbox" id="id_25">
+                            <label class="form-label form-label-left form-label-auto" id="label_25" for="input_25">Institute Website </label>
+                            <div id="cid_25" class="form-input" data-layout="half">
+                                <span class="form-sub-label-container" style="vertical-align:top">
+                                    <input type="text" id="input_25" name="q25_instituteWebsite" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_25 sublabel_input_25"/>
+                                    <label class="form-sub-label" for="input_25" id="sublabel_input_25" style="min-height:13px" aria-hidden="false">Please enter website if any. ( optional)</label>
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="form-section" id="section_49">
+                        <li id="cid_49" class="form-input-wide" data-type="control_collapse">
+                            <div class="form-collapse-table" id="collapse_49" data-component="collapse">
+                                <span class="form-collapse-mid" id="collapse-text_49">Social Media Link</span>
+                                <span class="form-collapse-right form-collapse-right-show"></span>
+                            </div>
+                        </li>
+                        <li class="form-line jf-required" data-type="control_inline" id="id_35">
+                            <div id="cid_35" class="form-input-wide jf-required" data-layout="full">
+                                <div id="FITB_35" class="FITB formRender">
+                                    <p>
+                                        Enter your social network account username/links if you do not have any enter NO<br/>
+                                        Your Facebook Account Link/Username 
+                                        <span data-type="textbox" data-grouptype="control_textbox" class="FITB-inptCont">
+                                            <input type="text" class="form-textbox  validate[required, ]" name="q35_input35[shorttext-4]" id="35_shorttext-4" required/>
+                                            <label for="35_shorttext-4"></label>
+                                            <span class="form-required">*</span>
+                                        </span>
+                                        <br/>
+                                        Your Instagram Account Link/Username 
+                                        <span data-type="textbox" data-grouptype="control_textbox" class="FITB-inptCont">
+                                            <input type="text" class="form-textbox  validate[required, ]" name="q35_input35[shorttext-3]" id="35_shorttext-3" required/>
+                                            <label for="35_shorttext-3"></label>
+                                            <span class="form-required">*</span>
+                                        </span>
+                                        <br/>
+                                        Your Twitter Account Link/Username 
+                                        <span data-type="textbox" data-grouptype="control_textbox" class="FITB-inptCont">
+                                            <input type="text" class="form-textbox  validate[required, ]" name="q35_input35[shorttext-5]" id="35_shorttext-5" required/>
+                                            <label for="35_shorttext-5"></label>
+                                            <span class="form-required">*</span>
+                                        </span>
+                                        <br/>
+                                        Your Telegram Account Link/Username 
+                                        <span data-type="textbox" data-grouptype="control_textbox" class="FITB-inptCont">
+                                            <input type="text" class="form-textbox  validate[required, ]" name="q35_input35[shorttext-6]" id="35_shorttext-6" required/>
+                                            <label for="35_shorttext-6"></label>
+                                            <span class="form-required">*</span>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="form-section" id="section_52">
+                        <li id="cid_52" class="form-input-wide" data-type="control_collapse">
+                            <div class="form-collapse-table" id="collapse_52" data-component="collapse">
+                                <span class="form-collapse-mid" id="collapse-text_52">One last step...</span>
+                                <span class="form-collapse-right form-collapse-right-show"></span>
+                            </div>
+                        </li>
+                        <li class="form-line jf-required" data-type="control_textarea" id="id_6">
+                            <label class="form-label form-label-left form-label-auto" id="label_6" for="input_6">
+                                Requesting Information Regarding<span class="form-required">*</span>
+                            </label>
+                            <div id="cid_6" class="form-input jf-required" data-layout="full">
+                                <span class="form-sub-label-container" style="vertical-align:top">
+                                    <textarea id="input_6" class="form-textarea validate[required]" name="q6_requestingInformation" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_6 sublabel_input_6"></textarea>
+                                    <label class="form-sub-label" for="input_6" id="sublabel_input_6" style="min-height:13px" aria-hidden="false">Please describe what are you looking for.</label>
+                                </span>
+                            </div>
+                        </li>
+                        <li class="form-line" data-type="control_widget" id="id_54">
+                            <label class="form-label form-label-top" id="label_54" for="input_54">You can also record your message. </label>
+                            <div id="cid_54" class="form-input-wide" data-layout="full">
+                                <div data-widget-name="Voice Recorder" style="width:100%;text-align:Center;overflow-x:auto" data-component="widget-field">
+                                    <iframe data-client-id="5297188631357d390700000d" title="Voice Recorder" frameBorder="0" scrolling="no" allowtransparency="true" allow="geolocation; microphone; camera; autoplay; encrypted-media; fullscreen" data-type="iframe" class="custom-field-frame" id="customFieldFrame_54" src="" style="max-width:300px;border:none;width:100%;height:40px" data-width="300" data-height="40"></iframe>
+                                    <div class="widget-inputs-wrapper">
+                                        <input type="hidden" id="input_54" class="form-hidden form-widget  " name="q54_typeA" value=""/>
+                                        <input type="hidden" id="widget_settings_54" class="form-hidden form-widget-settings" value="%5B%7B%22name%22%3A%22beepNotif%22%2C%22value%22%3Atrue%7D%5D" data-version="2"/>
+                                    </div>
+                                    <script type="text/javascript">
+                                        setTimeout(function() {
+                                            var _cFieldFrame = document.getElementById("customFieldFrame_54");
+                                            if (_cFieldFrame) {
+                                                _cFieldFrame.onload = function() {
+                                                    if (typeof widgetFrameLoaded !== 'undefined') {
+                                                        widgetFrameLoaded(54, {
+                                                            "formID": 231712338936459
+                                                        })
+                                                    }
+                                                }
+                                                ;
+                                                _cFieldFrame.src = "//data-widgets.jotform.io/voiceRecord/?qid=54&ref=" + encodeURIComponent(window.location.protocol + "//" + window.location.host) + '' + '' + '' + '&injectCSS=' + encodeURIComponent(window.location.search.indexOf("ndt=1") > -1);
+                                                _cFieldFrame.addClassName("custom-field-frame-rendered");
+                                            }
+                                        }, 0);
+                                    </script>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="form-line" data-type="control_button" id="id_36">
+                            <div id="cid_36" class="form-input-wide" data-layout="full">
+                                <div data-align="center" class="form-buttons-wrapper form-buttons-center   jsTest-button-wrapperField">
+                                    <button id="input_36" type="submit" class="form-submit-button form-submit-button-gradient-5 submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">Submit</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="display:none">
+                            Should be Empty: <input type="text" name="website" value=""/>
+                        </li>
+                    </ul>
+            </div>
+            <script>
+                JotForm.showJotFormPowered = "new_footer";
+            </script>
+            <script>
+                JotForm.poweredByText = "Powered by Jotform";
+            </script>
+            <input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="231712338936459"/>
+            <script type="text/javascript">
+                var all_spc = document.querySelectorAll("form[id='231712338936459'] .si" + "mple" + "_spc");
+                for (var i = 0; i < all_spc.length; i++) {
+                    all_spc[i].value = "231712338936459-231712338936459";
+                }
+            </script>
+            <div class="formFooter-heightMask"></div>
+            <div class="formFooter f6 branding21" style="display: flex !important;">
+               
+        
+            </div>
+        </form>
+    </body>
+</html>
+<script src="https://cdn.jotfor.ms//js/vendor/smoothscroll.min.js?v=3.3.42973"></script>
+<script src="https://cdn.jotfor.ms//js/errorNavigation.js?v=3.3.42973"></script>
+</main><footer class="page-footer py-3 border-top"><div class="container my-4">
+    
+    <div class="social-icons">
+        <a class="me-3" href="https://facebook.com/wansawinc"><i class="icon ion-social-facebook"></i></a><a class="me-3" href="https://instagram.com/amjid.png"><i class="icon ion-social-instagram-outline"></i></a><a class="me-3" href="https://twitter.com/amjiddader"><i class="icon ion-social-twitter"></i></a>
+    </div>
+</div></footer><nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-opacity-25 portfolio-navbar gradient" style="padding-left: 3px;"><div class="container"><a class="navbar-brand logo" href="/index.html">WANSAW</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarNav-1"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li><li class="nav-item"><a class="nav-link" href="/work.html">Projects</a></li><li class="nav-item"><a class="nav-link active" href="/contact.html">Apply Now</a></li><li class="nav-item"><a class="nav-link" href="/terms.html">Terms</a></li><li class="nav-item"><a class="nav-link" href="/privacy.html">Privacy</a></li><li class="nav-item"><a class="nav-link" href="/thanks.html">Donate</a></li></ul></div></div></nav><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script><script src="/assets/js/script.min.js?h=8f2950253cc49508fb3352618a979f35"></script></body></html>
